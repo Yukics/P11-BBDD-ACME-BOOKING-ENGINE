@@ -1,0 +1,16 @@
+version: "2"
+services:
+  kalipostgres:
+    image: postgres
+    container_name: kalipostgres
+    ports:
+    #Host - Docker
+      - 3309:5432
+    volumes:
+      - kalipostgresvol:/home/yuki/dockerpostgres
+    environment:
+      - POSTGRES_USER=yuki
+      - POSTGRES_PASSWORD=password
+volumes:
+  kalipostgresvol:
+    external: true
