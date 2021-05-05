@@ -1,0 +1,1 @@
+select * from bookings."CUSTOMERS" where firstname ilike 'guest' and lastname ilike 'guest' and address ilike 'guest'
