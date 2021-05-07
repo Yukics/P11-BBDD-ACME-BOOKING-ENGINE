@@ -1,0 +1,3 @@
+DELETE
+FROM bookings."CUSTOMERS"
+WHERE id NOT IN (SELECT DISTINCT cust_id from bookings."BOOKINGS");
