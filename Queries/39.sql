@@ -1,0 +1,3 @@
+INSERT INTO bookings."FACILITIES" (id, name, cust_cost, guest_cost, purchase_cost, maintenance_cost) VALUES (9, 'Spa', '20', '30', '100000', '8000');
+INSERT INTO bookings."FACILITIES" (id, name, cust_cost, guest_cost, purchase_cost, maintenance_cost) VALUES (10, 'Spa 2', '20', '30', '100000', '8000');
+INSERT INTO bookings."FACILITIES" (id, name, cust_cost, guest_cost, purchase_cost, maintenance_cost) VALUES (11, 'Squash Court 2', '3.5', '17.5', '5000', '80');
